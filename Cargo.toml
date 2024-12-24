@@ -6,7 +6,7 @@ resolver = "2"
 opt-level = 3
 
 [profile.release]
-lto = "thin"
+lto = "fat"
 codegen-units = 1
 
 [profile.ci]
